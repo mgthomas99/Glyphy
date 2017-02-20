@@ -121,4 +121,9 @@ implements Serializable {
         return img.hashCode();
     }
     
+    @Override
+    public String toString() {
+        return img.toString();
+    }
+    
 } 
